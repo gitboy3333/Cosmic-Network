@@ -1,0 +1,60 @@
+<body>
+    <nav class="nav" id="right-side-nav">
+      <ul id="tab-list"><li data-tab-id="1" draggable="true" class="active"><span class="tab-title">Home</span><button class="close-tab">✕</button></li></ul>
+      <button title="add-tab" id="add-tab"><i class="fa-solid fa-plus" aria-hidden="true"></i></button>
+    </nav>
+    <div class="nav-bar">
+      <div class="nav-container">
+        <div class="nav-left">
+          <button title="Home Page" id="home-page" class="nav-button" onclick="Home()">
+            <i class="fa-solid fa-house" aria-hidden="true"></i>
+          </button>
+          <button title="Back Arrow" class="nav-button" onclick="goBack()">
+            <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+          </button>
+          <button title="Forward Arrow" class="nav-button" onclick="goForward()">
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </button>
+          <button title="Reload" onclick="reload()" class="nav-button">
+            <i class="fa-solid fa-rotate-right" aria-hidden="true"></i>
+          </button>
+          <form id="fs" class="navpost" method="POST">
+            <input id="is" class="navsearch" placeholder="Search or enter a new URL" type="text">
+          </form>
+        </div>
+        <div class="nav-right">
+          <button title="Fullscreen" id="fullscreen-button" class="nav-button nav-btn-right" onclick="FS()">
+            <i class="fa-solid fa-expand" aria-hidden="true"></i>
+          </button>
+          <button title="Window Popout" id="popout-button" class="nav-button nav-btn-right" onclick="popout()">
+            <i class="fa-solid fa-up-right-from-square" aria-hidden="true"></i>
+          </button>
+          <button title="Inspect" id="eruda-button" class="nav-button nav-btn-right" onclick="erudaToggle()">
+            <i class="fa-solid fa-code" aria-hidden="true"></i>
+          </button>
+          <button title="Tabs" id="tabs-button" class="nav-button nav-btn-right">
+            <i class="fa-solid fa-magnifying-glass-minus" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="iframe-container" id="iframe-container"><iframe sandbox="allow-same-origin allow-scripts allow-forms allow-pointer-lock" data-tab-id="1" class="active" src="/"></iframe></div>
+    <script src="https://admins.schools.logins.folklandmanagement.com/assets/scripts/ta.js?v=44"></script>
+    <script src="https://admins.schools.logins.folklandmanagement.com/assets/scripts/m.js?v=62"></script><link rel="stylesheet">
+    <script src="https://admins.schools.logins.folklandmanagement.com/assets/-/bundle.js?v=5-5-2024"></script>
+    <script src="https://admins.schools.logins.folklandmanagement.com/assets/-/config.js?v=5-5-2024"></script>
+    <!-- DO NOT REMOVE-->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WKJQ5QHQTJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "G-WKJQ5QHQTJ")
+    </script>
+    <!-- DO NOT REMOVE-->
+  
+
+</body>
