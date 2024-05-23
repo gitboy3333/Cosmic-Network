@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         iframe.contentWindow.location.href = currentUrl;
 
         // Switch the main tab to Google Classroom
-        window.top.location.href = "https://classroom.google.com/";
+        window.top.location.href = "https://cosmic-network-gray.vercel.app/";
     });
 });
 </script>
